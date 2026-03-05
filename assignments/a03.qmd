@@ -26,7 +26,7 @@ catch_original <- read_csv("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/d
 #mean_region gets catch_original then
 mean_region <- catch_original %>%
   
-  #use the select function to remove the columns "All" and "notesRegCode" then
+  #use the select function to remove the columns "All" and "notesRegCode"
   select(-All, -notesRegCode) %>%
   
   #use the mutate function to mutate values in the column Chinook using an if_else condition
