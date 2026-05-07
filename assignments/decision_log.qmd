@@ -1,0 +1,12 @@
+---
+title: "decision_log"
+editor: visual
+author: "Andreas Krumbein"
+---
+
+## Decision Log
+
+1.  Used libcurl dowloader to prevent corruption issues that occurred when using the native dowloader
+2.  Unzipped the shapefile using the internal decompression instead of an external tool
+3.  Chose the Alaska Albers CRS projection as it is widely used and balances preserving area for spatial mapping and spatial analysis.
+4.  Focused on regional data as opposed to management area as this was a more immediately understandable way of presenting the map so that it would be clear to others.
