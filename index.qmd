@@ -1,12 +1,24 @@
 ---
 title: "Portfolio"
-listing:
-  contents: assignments
-  sort: "date asc"
-  fields: [title, date]
+subtitle: "a09"
+author: "Andreas Krumbein"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+execute:
+  warning: false
+  message: false
 ---
 
-Welcome!  
-This is my portfolio for learning **R, data analysis, GitHub, and Quarto**.
+Here are some of the course assignments covered this semester in BIOL806: Applied Data Science
 
-## Assignments
+## Course Lessons
+
+- [a00: Setup and Hello World](assignments/a00.html)
+- [a01: Introduction to Literate Analysis Using Quarto](assignments/a01_quarto_literate_analysis.html)
+- [a02: Tidy Data](assignments/a02.html)
+- [a03: Cleaning and Wrangling data](assignments/a03.html)
+- [a04: Data Visualization](assignments/a04.html)
+- [a05: Plotting with ggplot2 and leaflet](assignments/a05.html)
+- [a08: Working with spatial data](assignments/a08.html)
