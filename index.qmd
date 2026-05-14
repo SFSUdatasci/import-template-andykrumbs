@@ -21,3 +21,4 @@ Here are some of the course assignments covered this semester in BIOL806: Applie
 - [a03: Cleaning and Wrangling data](assignments/a03.html)
 - [a04: Data Visualization](assignments/a04.html)
 - [a05: Plotting with ggplot2 and leaflet](assignments/a05.html)
+- [a08: Working with spatial data](assignments/a08.html)
